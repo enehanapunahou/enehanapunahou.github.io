@@ -1,0 +1,25 @@
+/* FOR HEADERS: font-family: 'Barlow Condensed', sans-serif; */
+
+.navbar {
+    background-color: #151B3E;  
+}
+
+.nav-item a:hover {
+    color: #fffc8c;
+}
+
+.nav-item a:active, .active-nav-link {
+    color: #fefed7;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
