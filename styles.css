@@ -1,14 +1,19 @@
 /* FOR HEADERS: font-family: 'Barlow Condensed', sans-serif; */
 
-.navbar {
+.navbar, footer {
     background-color: #151B3E;  
 }
 
-.nav-item a:hover {
+.navbar-toggler, .navbar-collapse {
+    position: absolute;
+    right: 15px;
+}
+
+.nav-item a:hover, .icon-wrapper a i:hover, .foot-link:hover {
     color: #fffc8c;
 }
 
-.nav-item a:active, .active-nav-link {
+.nav-item a:active, .active-nav-link, .icon-wrapper a i:active, .foot-link:active {
     color: #fefed7;
 }
 
@@ -20,6 +25,26 @@
     font-family: 'Barlow', sans-serif;
 }
 
+.foot-item {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foot-item p {
+    margin-bottom: 0;
+    font-size: smaller;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
 }
