@@ -1,5 +1,4 @@
-/* FOR HEADERS: font-family: 'Barlow Condensed', sans-serif; */
-
+/* STYLING FOR HEADER AND FOOTER */
 .navbar, footer {
     background-color: #151B3E;  
 }
@@ -38,12 +37,19 @@
     font-size: smaller;
 }
 
+.foot-item h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: .25rem;
+    text-decoration: underline;
+}
+
 .foot-link {
     text-decoration: none;
     color: white;
     font-size: smaller;
 }
 
+/* GENERAL STYLING */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f7f7f7;
