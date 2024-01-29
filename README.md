@@ -6,6 +6,7 @@ _Run by students for students._
 - [Lindsay Minami](https://github.com/FlowerCake13) '23
 ---
 ## Additional Resrouces
+_DOCUMENTATION AVAILIABLE VIA '/docs/'._
 <!-- TECHNICAL RESOURCES -->
 ### Technical Resources
 - [W3Schools](https://www.w3schools.com/)
