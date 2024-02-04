@@ -1,8 +1,4 @@
-/* STYLING FOR HEADER AND FOOTER */
-.navbar, footer {
-    background-color: #151B3E;  
-}
-
+STYLING FOR HEADER AND FOOTER
 .navbar-toggler, .navbar-collapse {
     position: absolute;
     right: 15px;
@@ -49,13 +45,17 @@
     font-size: smaller;
 }
 
+.navbar, footer {
+    background-color: #151B3E;  
+}
+
 /* GENERAL STYLING */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f7f7f7;
 }
 
-h2, h4 {
+h2, h3, h4 {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -65,4 +65,23 @@ h1 {
 
 .content {
     margin-top: 66px;
+}
+
+/* ABOUT PAGE STYLING */
+#alumni div div {
+    text-align: center;
+}
+
+#alumni div div img {
+    height: 20vw;
+    padding: .5vw;
+}
+
+.staff-icons a {
+    padding: inherit;
+    font-size: medium;
+}
+
+.staff-icons p {
+    font-size: smaller;
 }
