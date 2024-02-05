@@ -11,9 +11,10 @@ Breifly explain the website's anual updates for over summer/early school year.
 ARCHIVE GRADUATING LEADERSHIP
 * **BEFORE THE SCHOOL YEAR IS OVER GET THE FOLLOWING INFORMATION FROM THE SENIORS GRADUATING**
     * College and Major
-    * Linkedin (if appliciaple)
+    * Linkedin (if appliciable)
+    * GitHub (if appliciable)
     * DTE distinction pursuit
-        * *If appliciaple:* DTE Portfolio link
+        * *If appliciable:* DTE Portfolio link
 * Following templating, per graduating year - add previous board members to Alumni section
 
 ### Part 2
