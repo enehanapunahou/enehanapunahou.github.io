@@ -68,11 +68,11 @@ h1 {
 }
 
 /* ABOUT PAGE STYLING */
-#alumni div div {
+#alumni div div, #board-members div div {
     text-align: center;
 }
 
-#alumni div div img {
+#alumni div div img, #board-members div div img {
     height: 20vw;
     padding: .5vw;
 }
