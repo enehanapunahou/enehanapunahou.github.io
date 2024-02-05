@@ -4,7 +4,7 @@ Updates that need to be made to the club website annually!
 ## Objective
 Breifly explain the website's anual updates for over summer/early school year.
 *If multiple webmasters are availabile, then split parts to each person*
-* * please try to train a webmaster annually (i.e if the current is graduating, find a new one for that same year and train) *
+* _please try to train a webmaster annually (i.e if the current is graduating, find a new one for that same year and train)_
 
 ## To Do
 ### Part 1
