@@ -13,8 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Barlow:wght@800&family=Montserrat&display=swap" rel="stylesheet">
 
     <!-- internal reference links -->
     <link rel="stylesheet" href="styles.css">
@@ -45,8 +44,61 @@
     </nav>
 
     <!-- body -->
-    <div>
-        
+    <div class="container-fluid content">
+        <div id="projects-title" class="text-center p-4">
+            <h1>Our Projects</h1>
+            <p style="font-size: smaller; font-style: italic;">Learn more about our current and past projects or get our tutorials!</p>
+        </div>
+        <!-- PROJECT IMAGES ARE A 4X3 RATIO -->
+        <div id="project-current" class="project-types">
+            <h2>Current Projects</h2>
+            <!-- ADD IN DESECNDING ORDER OF RECENT TO OLDEST -->
+        </div>
+        <div id="project-past" class="project-types">
+            <h2>Past Projects</h2>
+            <!-- ADD IN DESECNDING ORDER OF RECENT TO OLDEST -->
+        </div>
+        <div id="project-tutorials" class="project-types">
+            <h2>Project Tutorials</h2>
+            <!-- ADD IN DESECNDING ORDER OF RECENT TO OLDEST -->
+            <div class="project-wrapper row">
+                <div id="projects-cookie-clicker" class="project col-6">
+                    <img src="assets/projects/cookie-clicker-header.jpg" alt="cookie clicker project example image">
+                    <div class="p-4 project-text">
+                        <h3>Cookie Clicker Tutorial</h3>
+                        <p>Learn how to make a simple Cookie Clicker game using HTML, CSS and JavaScript!</p>
+                        <p><b>Level:</b> Mid Beginner
+                        <br />
+                        <b>Languages:</b> HTML, CSS, JavaScript
+                        <br />
+                        <b>Year:</b> Spring 2023
+                        </p>
+                        <div class="repository-fonts">
+                            <p><a href="https://github.com/enehanapunahou/cookie-clicker" target="_blank" class="btn btn-link btn-floating btn-small text-dark repo-link" role="button" data-mdb-ripple-color="dark"><i class="fa fa-github"></i></a> Repository</p>
+                            <a class="btn btn-primary repo-btn" href="projects/cookie-clicker.html">Button</a>
+                        </div>  
+                    </div>
+                </div>
+                <div id="projects-intro-to-web-dev" class="project col-6">
+                    <img src="assets/projects/intro-header.jpg" alt="intro to web development project example imagee">
+                    <div class="p-4 project-text">
+                        <h3>Intro to Web Development</h3>
+                        <p>Learn simple web development, HTML and CSS, and make a website based on your comfortability.</p>
+                        <p><b>Level:</b> Beginner <i style="font-size: smaller;">(comfy and more comfy avaliable)</i>
+                        <br />
+                        <b>Languages:</b> HTML, CSS
+                        <br />
+                        <b>Year:</b> Fall 2021
+                        </p>
+                        <div class="repository-fonts">
+                            <p><a href="https://github.com/enehanapunahou/about-me-less-comfy" target="_blank" class="btn btn-link btn-floating btn-small text-dark repo-link" role="button" data-mdb-ripple-color="dark"><i class="fa fa-github"></i></a> Less Comfy Repository</p>
+                            <p><a href="https://github.com/enehanapunahou/about-me-more-comfy" target="_blank" class="btn btn-link btn-floating btn-small text-dark repo-link" role="button" data-mdb-ripple-color="dark"><i class="fa fa-github"></i></a> More Comfy Repository</p>
+                            <a class="btn btn-primary repo-btn" href="projects/intro-web.html">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- footer -->
@@ -70,6 +122,5 @@
             <p><b>Punahou School</b><br>1601 Punahou St<br>Honolulu, HI 96822</p>
         </div>
     </footer>
-
 </body>
 </html>

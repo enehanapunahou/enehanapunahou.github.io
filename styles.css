@@ -1,4 +1,4 @@
-STYLING FOR HEADER AND FOOTER
+/* STYLING FOR HEADER AND FOOTER */
 .navbar-toggler, .navbar-collapse {
     position: absolute;
     right: 15px;
@@ -88,4 +88,46 @@ h1 {
 
 .year h1 {
     font-size: xx-large;
+}
+
+/* PROJECT PAGE STYLING */
+.project-types h2 {
+    font-family: 'Barlow', sans-serif;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project img {
+    width: 70%;
+}
+
+.repository-fonts {
+    color: black;
+    font-size: smaller;
+}
+
+.repository-fonts p {
+    margin: 0;
+    text-decoration: none;
+}
+
+.repo-link {
+    padding: 0.5%;
+}
+
+.repo-btn {
+    margin-top: .5vh;
+    background-color: #35449c;
+    border-color: #35449c;
+}
+
+.repo-btn:hover{
+    background-color: #212b63!important;
+    border-color: #212b63!important;
 }
