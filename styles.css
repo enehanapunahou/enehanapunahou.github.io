@@ -105,6 +105,7 @@ h1 {
 
 .project img {
     width: 70%;
+    border-radius: .5vw;
 }
 
 .repository-fonts {
@@ -130,4 +131,19 @@ h1 {
 .repo-btn:hover{
     background-color: #212b63!important;
     border-color: #212b63!important;
+}
+
+.return-projects {
+    text-align: center;
+    text-decoration: none;
+    color: #35449c;
+}
+
+.return-projects:hover {
+    color: #212b63;
+}
+
+.project-page-header img{
+    width: 100%;
+    border-radius: .5vw;
 }
