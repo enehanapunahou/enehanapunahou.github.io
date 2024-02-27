@@ -111,6 +111,7 @@ h1 {
 .repository-fonts {
     color: black;
     font-size: smaller;
+    width: 100%;
 }
 
 .repository-fonts p {
